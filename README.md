@@ -1,5 +1,5 @@
 # Data Processing GUI for Ailytics
-This GUI aims to optimize various processes in the data pipeline through the consolidation of python scripts into an easy-to-use application, powered by tkinter and ttkbootstrap libraries. Pyinstaller is then used to convert the files into a single .exe application for simplicity. The GUI is able to perform data pre-processing as well as post-processing steps in the form of label verification and checks. 
+This GUI aims to optimize processes in the data pipeline through the consolidation of python scripts into an easy-to-use application, powered by tkinter and ttkbootstrap libraries. Pyinstaller is then used to convert the files into a single .exe application for simplicity. The GUI is able to perform various data pre-processing as well as post-processing steps in the form of label verification and checks. 
 
 ## The Functionalities of this GUI includes:
 - Get Summary (returns summary of class instances)
