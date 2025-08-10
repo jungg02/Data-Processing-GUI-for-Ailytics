@@ -1,18 +1,23 @@
 # Data Processing GUI for Ailytics
-This GUI aims to optimize processes in the data pipeline through the consolidation of python scripts into an easy-to-use application, powered by tkinter and ttkbootstrap libraries. Pyinstaller is then used to convert the files into a single .exe application for simplicity. The GUI is able to perform various data pre-processing as well as post-processing steps in the form of label verification and checks. 
+An easy-to-use GUI application for streamlining data pipeline processes in computer vision projects. This tool consolidates multiple Python scripts into a single application, enabling both data pre-processing and post-processing tasks through a simple interface.
 
-## The Functionalities of this GUI includes:
-- Get Summary (returns summary of class instances)
-- Image file conversion (to ".jpg")
-- Search up labels (returns files containing instances of a specific class)
-- Reduce file size (removal of imageData from JSON files)
-- Resize image 
-- General dataset checks
-  - Correct file formatting (images in ".jpg" or ".jpeg", correct aspect ratio etc.)
+Built with tkinter and ttkbootstrap for a modern UI, and packaged into a standalone .exe using PyInstaller for convenient distribution.
+
+## Features
+### Data Insights
+- Get Summary – View the count of class instances in your dataset.
+- Search Labels – Retrieve all files containing a specific class.
+### Data Preprocessing
+- Image File Conversion  – Convert images to .jpg format.
+- Reduce File Size – Remove embedded imageData from JSON files.
+- Resize Image – Adjust image dimensions for consistency.
+### Data Quality Checks
+- General Dataset Checks – Identify and flag out the following errors:
+  - Incorrect file formatting (wrong extensions, aspect ratio errors)
   - Duplicate labels
   - Unknown classes
   - Invalid bbox 
-  - Uncontained worker PPE (worker PPE not bounded within worker bbox)
+  - Uncontained worker PPE (PPE not fully bounded within worker bbox)
 
 Upon conducting a general dataset check on a given folder containing image and JSON files, the GUI will flag out files with errors found, prompting the user to make the respective changes to them, most of which can be performed within the GUI itself.  
 
