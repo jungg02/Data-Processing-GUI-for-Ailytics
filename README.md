@@ -14,6 +14,6 @@ This GUI aims to optimize processes in the data pipeline through the consolidati
   - Invalid bbox 
   - Uncontained worker PPE (worker PPE not bounded within worker bbox)
 
-Upon conducting a general dataset check on a given folder of image and JSON files, the GUI will flag out files with errors found, prompting the user to make the respective changes to them, most of which can be performed within the GUI itself.  
+Upon conducting a general dataset check on a given folder containing image and JSON files, the GUI will flag out files with errors found, prompting the user to make the respective changes to them, most of which can be performed within the GUI itself.  
 
 To run the application, simply run the main code "labelcheckerbot.py" or run the .exe file in the "dist" folder. 
