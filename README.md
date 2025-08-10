@@ -1,7 +1,7 @@
 # Data Processing GUI for Ailytics
 An easy-to-use GUI application for streamlining data pipeline processes in computer vision projects. This tool consolidates multiple Python scripts into a single application, enabling both data pre-processing and post-processing tasks through a simple interface.
 
-Built with tkinter and ttkbootstrap for a modern UI, and packaged into a standalone .exe using PyInstaller for convenient distribution.
+The application is built in Python using an Object-Oriented Programming (OOP) approach to ensure modularity, scalability, and ease of maintenance, and afterwards packaged into a standalone .exe using PyInstaller for convenient distribution.
 
 ## Features
 ### Data Insights
@@ -22,6 +22,12 @@ Built with tkinter and ttkbootstrap for a modern UI, and packaged into a standal
 Upon conducting a general dataset check on a given folder containing image and JSON files, the GUI will flag out files with errors found, prompting the user to make the respective changes to them, most of which can be performed within the GUI itself.  
 
 To run the application, simply run the main code "labelcheckerbot.py" or run the .exe file in the "dist" folder found here https://drive.google.com/drive/folders/1ea3fBITeq5qFsHKCfPHlWhO82J29yoLs?usp=sharing
+
+## Tech Stack & Design
+- **Language**: Python
+- **GUI Frameworks**: tkinter, ttkbootstrap
+- **Design Pattern**: Object-Oriented Programming (OOP) for modular GUI components and reusability
+- **Packaging**: PyInstaller for `.exe` distribution
 
 ## Example Screenshot
 <img src="screenshot.png" width ="500">
