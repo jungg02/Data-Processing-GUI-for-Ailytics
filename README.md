@@ -16,4 +16,4 @@ This GUI aims to optimize processes in the data pipeline through the consolidati
 
 Upon conducting a general dataset check on a given folder containing image and JSON files, the GUI will flag out files with errors found, prompting the user to make the respective changes to them, most of which can be performed within the GUI itself.  
 
-To run the application, simply run the main code "labelcheckerbot.py" or run the .exe file in the "dist" folder. 
+To run the application, simply run the main code "labelcheckerbot.py" or run the .exe file in the "dist" folder found here https://drive.google.com/drive/folders/1ea3fBITeq5qFsHKCfPHlWhO82J29yoLs?usp=drive_link
