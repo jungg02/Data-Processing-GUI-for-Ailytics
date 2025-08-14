@@ -3,6 +3,8 @@ An easy-to-use GUI application for streamlining data pipeline processes in compu
 
 The application is built in Python using an Object-Oriented Programming (OOP) approach to ensure modularity, scalability, and ease of maintenance, and afterwards packaged into a standalone `.exe` using PyInstaller for convenient distribution.
 
+To run the application, simply run the main code "labelcheckerbot.py" or run the .exe file in the "dist" folder found here https://drive.google.com/drive/folders/1ea3fBITeq5qFsHKCfPHlWhO82J29yoLs?usp=sharing
+
 ## Features
 ### Data Insights
 - Get Summary – View the count of class instances in your dataset.
@@ -21,12 +23,11 @@ The application is built in Python using an Object-Oriented Programming (OOP) ap
 
 Upon conducting a general dataset check on a given folder containing image and JSON files, the GUI will flag out files with errors found, prompting the user to make the respective changes to them, most of which can be performed within the GUI itself.  
 
-To run the application, simply run the main code "labelcheckerbot.py" or run the .exe file in the "dist" folder found here https://drive.google.com/drive/folders/1ea3fBITeq5qFsHKCfPHlWhO82J29yoLs?usp=sharing
 
 ## Tech Stack & Design
 - **Language**: Python
 - **GUI Frameworks**: tkinter, ttkbootstrap
-- **Design Pattern**: Object-Oriented Programming (OOP) for modular GUI components and reusability
+- **Design Pattern**: Object-Oriented Programming (OOP) for modular GUI components and scalability
 - **Packaging**: PyInstaller for `.exe` distribution
 
 ## Example Screenshot
