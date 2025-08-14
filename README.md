@@ -27,7 +27,7 @@ Upon conducting a general dataset check on a given folder containing image and J
 ## Tech Stack & Design
 - **Language**: Python
 - **GUI Frameworks**: tkinter, ttkbootstrap
-- **Design Pattern**: Object-Oriented Programming (OOP) for modular GUI components and scalability
+- **Design Pattern**: Object-Oriented Programming (OOP) for modular GUI components and reusability
 - **Packaging**: PyInstaller for `.exe` distribution
 
 ## Example Screenshot
